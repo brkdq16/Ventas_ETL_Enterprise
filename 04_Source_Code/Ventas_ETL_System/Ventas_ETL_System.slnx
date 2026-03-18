@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Api/">
+    <Project Path="API/Ventas.API/Ventas.API.csproj" />
+  </Folder>
+  <Folder Name="/Core/">
+    <Project Path="Core/Ventas.Core.Application/Ventas.Core.Application.csproj" />
+    <Project Path="Core/Ventas.Core.Domain/Ventas.Core.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure/Ventas.Infrastructure.Data/Ventas.Infrastructure.Data.csproj" />
+    <Project Path="Infrastructure/Ventas.Infrastructure.External/Ventas.Infrastructure.External.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="Presentation/Ventas.Presentation.ConsoleApp/Ventas.Presentation.ConsoleApp.csproj" />
+    <Project Path="Presentation/Ventas.Presentation.WorkerService/Ventas.Presentation.WorkerService.csproj" />
+  </Folder>
+</Solution>

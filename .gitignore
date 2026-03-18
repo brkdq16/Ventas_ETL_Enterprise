@@ -1,0 +1,30 @@
+# === BASES DE DATOS (PROTECCIÓN TOTAL) ===
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.checkpoint
+*.log
+
+# === CARPETAS DE COMPILACIÓN ===
+[Bb]in/
+[Oo]bj/
+.vs/
+.idea/
+.user/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# === ARCHIVOS DE CONFIGURACIÓN PERSONALIZADA ===
+appsettings.Development.json
+secrets.json
+
+# === QUE SÍ QUEREMOS SUBIR (ASEGURADO) ===
+!*.sql
+!*.png
+!*.jpg
+!*.jpeg
+!*.pdf
+!*.csv
