@@ -7,8 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CsvMappers\" />
     <Folder Include="ApiClients\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="33.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Ventas.Core.Domain\Ventas.Core.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -15,9 +15,10 @@ CREATE TABLE Customers (
     LastName NVARCHAR(150) NOT NULL,
     Email NVARCHAR(150),
     Phone NVARCHAR(50),
-    City NVARCHAR(50),
-    Country NVARCHAR(50)
+    City NVARCHAR(100), -- Ajustado de 50: Evita truncado en nombres compuestos
+    Country NVARCHAR(100) -- -- Ajustado de 50: Necesario para territorios internacionales (Ej. Chagos Archipelago)
 );
+
 
 CREATE TABLE Categories (
     CategoryID INT IDENTITY(1,1) PRIMARY KEY,
@@ -58,6 +59,5 @@ CREATE INDEX IX_Orders_SourceID ON Orders(SourceID);
 CREATE INDEX IX_Details_OrderID ON OrderDetails(OrderID);
 CREATE INDEX IX_Details_ProductID ON OrderDetails(ProductID);
 GO
-
 
 

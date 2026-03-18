@@ -9,7 +9,15 @@
   <ItemGroup>
     <Folder Include="DTOs\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Ventas.Infrastructure.Data\Ventas.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\Ventas.Core.Domain\Ventas.Core.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Ventas.Core.Application\Ventas.Core.Application.csproj" />
+    <ProjectReference Include="..\..\Core\Ventas.Core.Domain\Ventas.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Ventas.Infrastructure.Data\Ventas.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Ventas.Infrastructure.External\Ventas.Infrastructure.External.csproj" />
+  </ItemGroup>
+
 </Project>
