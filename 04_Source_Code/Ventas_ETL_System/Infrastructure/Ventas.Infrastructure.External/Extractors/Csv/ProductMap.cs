@@ -1,7 +1,7 @@
 ﻿using CsvHelper.Configuration;
 using Ventas.Core.Domain.Entities;
 
-namespace Ventas.Infrastructure.External.CsvMappers;
+namespace Ventas.Infrastructure.External.Extractors.Csv;
 
 public class ProductMap : ClassMap<Product>
 {
